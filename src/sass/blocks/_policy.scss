@@ -1,0 +1,19 @@
+.policy {
+    padding: 57px 0;
+    border-top: 1px solid #1c73b7;
+    &__wrapper {
+        width: 900px;
+        margin: 0 auto;
+    }
+    h1 {
+        margin-bottom: 34px;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-bottom: 17px;
+        margin-top: 30px;
+    }
+    &__descr {
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,21 @@
+.title {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: #232c3b;
+    line-height: 50px;
+    margin-bottom: 15px;
+    &_two {
+        color: #ffffff;
+    }
+}
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #8d8d8d;
+    line-height: 20px;
+    &_two {
+        color: #ffffff;
+    }
+}

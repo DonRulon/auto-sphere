@@ -1,0 +1,68 @@
+.comments {
+    min-height: 888px;
+    padding: 79px 0 48px 0;
+    position: relative;
+    &__carousel {
+        margin-top: 50px;
+        margin-bottom: 47px;
+        text-align: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: url('../img/comment_bg.jpg') center (center/cover) no-repeat;
+        max-width: 360px;
+        height: 534px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.29;
+        text-align: left;
+        color: #ffffff;
+        padding: 50px 52px 40px 30px;
+        border-radius: 4px;
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    &__author {
+        margin-top: 53px;
+        font-size: 16px;
+    }
+    .slick-prev {
+        background-color: #fff;
+        border: none;
+        top: -100px;
+        left: 172px;
+        position: absolute;
+        z-index: 2;
+        &:focus {
+            outline: none;
+        }
+    }
+    .slick-next {
+        background-color: #fff;
+        border: none;
+        top: -100px;
+        right: 172px;
+        position: absolute;
+        &:focus {
+            outline: none;
+        }
+    }
+    .slick-disabled {
+        opacity: .25;
+    }
+    .slick-track {
+    }
+    .slick-slide {
+        display: flex;
+        margin: 0 15px;
+    }
+    .slick-active {
+        margin: 0 15px;
+    }
+    .slick-center {
+    }
+}

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Gilroy Light';
+    font-display: swap;
+    src: url('../fonts/Gilroy-Light.eot');
+    src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy Regular';
+    font-display: swap;
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy Medium';
+    font-display: swap;
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy Semibold';
+    font-display: swap;
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy Bold';
+    font-display: swap;
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'icomoon';
+  font-display: swap;
+  src:  url('../fonts/icomoon.eot?uo93kf');
+  src:  url('../fonts/icomoon.eot?uo93kf#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?uo93kf') format('woff'),
+    url('../fonts/icomoon.svg?uo93kf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-display: swap;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ruble:before {
+  content: "\e908";
+}
+.icon-mail:before {
+  content: "\e905";
+}
+.icon-marker:before {
+  content: "\e904";
+}
+.icon-back:before {
+  content: "\e900";
+}
+.icon-next:before {
+  content: "\e901";
+}
+.icon-mails:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-pageup:before {
+  content: "\e907";
+  color: #c70101;
+}
+.icon-mail-1:before {
+  content: "\e906";
+}
+
+
+
+
+

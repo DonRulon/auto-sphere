@@ -1,0 +1,84 @@
+.form {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 767px;
+    margin: 0 auto;
+    input {
+        width: 263px;
+        height: 40px;
+        padding: 16px 11px 13px 11px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #000000;
+        border: 1px solid #ff7a00;
+        border-radius: 2px;
+        &:focus {
+            outline: none;
+        }
+    }
+    input.error {
+        border: 1px solid red;
+    }
+    &_modal {
+        display: flex;
+        flex-direction: column;
+        width: 261px;
+        input {
+            margin: 15px 0;
+            &:nth-child(2) {
+                margin: 0;
+            }
+        }
+        input.error {
+            margin: 5px 0;
+        }
+        
+        textarea {
+            resize: none;
+            margin-bottom: 15px;
+            height: 100px;
+            width: 263px;
+            padding: 3px 11px 5px 11px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #212529;
+            border: 1px solid #ff7a00;
+            border-radius: 2px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+#phone-error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+#name-error {
+    color: red;
+    font-size: 12px;    
+    text-align: center;
+}
+#email-error {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#main-form {
+    #name-error {
+        position: absolute;
+        bottom: -22px;
+        left: 57px;
+        margin: 0;
+    }
+    #phone-error {
+        position: absolute;
+        bottom: -22px;
+        right: 219px;
+        margin: 0;
+    }
+}
