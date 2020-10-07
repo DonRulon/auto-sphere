@@ -11,11 +11,15 @@
                 width: 100%;
             }
         }
+        &__h1 {
+            visibility: visible;
+        }
         h1 {
             font-size: 50px;
             line-height: 53px;
         }
         &__subtitle {
+            visibility: visible;
             font-size: 16px;
             margin-bottom: 25px;
             margin-top: 9px;
@@ -35,6 +39,9 @@
             display: none;
         }
     }
+    #preload-1 { background: none; }
+    #preload-2 { background: none; }
+    #preload-3 { background: none; }
     .check {
         height: 845px;
         padding: 50px 0 80px 0;

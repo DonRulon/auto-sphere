@@ -4,6 +4,15 @@
 
 *{font-family: 'Gilroy', sans-serif;}
 
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+#preload { background: url(../img/background.jpg) no-repeat -9999px -9999px; }
+#preload-1 { background: url(../img/silver.jpg) no-repeat -9999px -9999px; }
+#preload-2 { background: url(../img/orange.jpg) no-repeat -9999px -9999px; }
+#preload-3 { background: url(../img/white.jpg) no-repeat -9999px -9999px; }
+
 .container {
     position: relative;
     max-width: 1140px;

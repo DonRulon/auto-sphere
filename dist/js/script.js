@@ -1,5 +1,3 @@
-
-
 $(document).ready(function() {
     $('.comments__carousel').slick({
         prevArrow: '<button type="button" class="slick-prev"><span class="icon-back"></span></button>',
@@ -26,22 +24,7 @@ $(document).ready(function() {
             }
         ] 
     });
-        
-    $(".promo__hover-white").hover(function() {
-        $(this).closest(".promo").css({ 'background-position': 'center -2526px' });
-      }, function(){
-        $(this).closest(".promo").css({ 'background-position': 'center -0' });
-      });
-    $(".promo__hover-orange").hover(function() {
-        $(this).closest(".promo").css({ 'background-position': 'center -1684px' });
-    }, function(){
-        $(this).closest(".promo").css({ 'background-position': 'center -0' });
-    });
-    $(".promo__hover-silver").hover(function() {
-        $(this).closest(".promo").css({ 'background-position': 'center -842px' });
-    }, function(){
-        $(this).closest(".promo").css({ 'background-position': 'center -0' });
-    });
+    
     $(".check__hover").hover(function() {
         $(this).closest(".check").css({ 'background-position': 'center -1118px' });
     }, function(){
@@ -70,18 +53,8 @@ $(document).ready(function() {
     });
 
     //validate 
-    
-
-    
-
-
     $('input[name=phone]').mask("+7 (999) 999-9999");
-
-
-
-
 //map
-
     var map;
 
 
@@ -117,8 +90,6 @@ $(document).ready(function() {
     $(".overlay").on('click', function (e) {
         if (e.target == this) $(".modal, .overlay").fadeOut('fast');
     })
-
-
 
     $('#consultation form').validate({
         rules: {
@@ -222,7 +193,7 @@ $(document).ready(function() {
         return false;
         }
     });
-
+    
 });   
 
        window.addEventListener('DOMContentLoaded', () => {
@@ -250,9 +221,7 @@ $(document).ready(function() {
                 })
             })
 
-        })
-
-      
+        });
 
         $(function () {
             window.sr = ScrollReveal({
